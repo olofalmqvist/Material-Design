@@ -1,0 +1,77 @@
+#referenserBox {
+    display: flex;
+    justify-content: center;
+}
+
+#referenserBox h1{
+    color: #0d47a1;
+}
+
+#referenserHeroBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#referenserContentHero {
+    height: 750px;
+    width: 200px;
+    margin-left: 25px;
+}
+
+#referenserContentBox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.referenserContent {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+     width: 750px;
+    height: 220px;
+    margin-top: 50px !important;
+    margin: 0px auto;
+    background-color: whitesmoke;
+    padding: 20px 40px 20px 40px;
+    box-shadow: 1px 1px 5px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.referenserContent img {
+    box-shadow: 1px 1px 5px;
+}
+
+.referenserText {
+    width: 400px;
+}
+
+#referenserRating {
+    box-shadow: 0px 0px 0px;
+}
+
+#referenserContentStarGrade {
+    height: 260px;
+    width: 200px;
+    margin-left: 25px;
+}
+
+.referenserMedelbetyg table{
+    width: 200px;
+    font-size: 15px;
+    padding: 1px;
+    opacity: 0.87;
+    font-family: "Roboto";
+}
+
+.referenserMedelbetyg thead{
+    background-color: #0d47a1;
+    color: white;
+}
+
+
+

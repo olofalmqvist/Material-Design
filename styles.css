@@ -1,0 +1,511 @@
+/*** Body of Page 300 hue ***/
+body {
+    background-color: #bbdefb;
+}
+
+body {
+    font-family: "Roboto";
+}
+
+body span, p, h1, h2, h3 {
+    opacity: 0.87;
+}
+
+/*** END Body of Page ***/
+
+/*** STATUS BAR CLASS ***/
+.statusBar {
+    background-color: #0d47a1;
+    height: 30px;
+}
+
+/*** Status Bar ID = TOP ***/
+#statusBarTop {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 2px 2px 3px;
+}
+
+#statusBarTop span{
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 5px;
+    opacity: 0.54;
+    color: white;
+    font-style: italic;
+}
+
+/*** END Status Bar ID = TOP ***/
+
+/*** MAIN BAR CLASS ***/
+.mainBar {
+    background-color: #2196f3;
+    height: 80px;
+}
+
+.mainBar a{
+    text-decoration: none;
+}
+
+/**************** MENU BAR *******************/
+/*** Main Bar ID = TOP ***/
+#menuBar {
+    margin-top: -3px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 2px 2px 8px;
+    border-radius: 3px;
+    overflow: hidden;
+    
+}
+/*** END Main Bar ID = TOP ***/
+
+/**************** MENU BAR *******************/
+
+#logo {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    color: white;
+    margin-top: -28px;
+}
+
+#logo h1 {
+    transition-property: opacity, letter-spacing;
+    transition-duration: 1s;
+}
+
+#logo h1:hover {
+    opacity: 1;
+    letter-spacing: -1px;
+    
+}
+
+#logo img {
+    margin-top: 28px;
+    margin-left: 10px;
+    opacity: 0.80;
+    transition-property: opacity;
+    transition-duration: 2s;
+}
+
+#logo img:hover {
+    opacity: 1;
+}
+
+#logo h1 {
+   font-size: 48px;
+    letter-spacing: -2px;
+    font-weight: bold;
+}
+
+#logo p {
+    font-size: 15px;
+    margin-top: -40px;
+    font-style: italic;
+    letter-spacing: -1px;
+}
+
+/*** MENU BUTTON ***/
+#menuButtonBox {
+    display: flex;
+    justify-content: center;
+}
+
+.menuButton {
+    line-height: 70px;
+    background-color: #2196f3;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    height: 70px;
+    width: 100px;
+    font-size: 15px;
+    margin-right: 6px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.menuButton span {
+    margin-left: 30px !important;
+}
+
+.menuButton:hover {
+   background-color: orange;
+}
+
+.menuButton:active {
+   opacity: 0.7;
+
+}
+
+.menuButton:focus {
+   background-color: #0d47a1;
+}
+
+#menuButtonMainActive {
+    background-color: orange;
+}
+
+/*** END MENU BUTTON ***/
+
+/***ACTION BUTTON***/
+
+#actionButton {
+    display: flex;
+    flex-direction: column-reverse;
+    border-radius: 100%;
+    height: 55px;
+    width: 55px;
+    background-color: #E65100;
+    position: fixed;
+    text-align: center;
+    line-height: 55px;
+    color: white;
+    font-size: 22px;
+    box-shadow: 0px 0px 5px;
+    z-index: 20;
+    left: 1550px;
+    top: 800px;
+    overflow: hidden;
+    transition-property: width, height, line-height, box-shadow;
+    transition-duration: 0.3s;
+}
+
+#actionButton a {
+    text-decoration: none;
+    color: white;
+}
+
+#actionButtonElements {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px auto;
+    font-size: 17px;
+    list-style: none;
+    margin-left: -102px;
+    margin-top: -280px;
+    color: white;
+    font-weight: bold;
+}
+
+#actionButtonElements a {
+    text-decoration: none;
+}
+
+#actionButtonElement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 180px;
+    max-height: 50px;
+    transition-property: margin-top, margin-bottom;
+    transition-duration: 1s;
+}
+
+#actionButtonElement:hover {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    opacity: 0.8;
+}
+
+#actionButtonElement span {
+    margin-right: 45px;
+    min-width: 16px;
+    min-height: 16px;
+}
+
+#actionButtonElement img {
+    border-radius: 100%;
+}
+
+#actionButtonElementText {
+    display: flex;
+    justify-content: center;
+    background-color: #8D6E63;
+    width: 160px;
+    height: 33px;
+    border-radius: 2px;
+    margin-right: 15px;
+    padding: 1px;
+}
+
+#actionButtonElementText:active {
+    opacity: 0.1;
+}
+
+#actionButtonElementText strong {
+    margin-top: -12px;
+}
+
+#actionButton:hover {
+    line-height: 57px;
+    height: 57px;
+    width: 57px;
+    box-shadow: 0px 0px 10px;
+     overflow: visible;
+}
+
+
+/***ACTION BUTTON***/
+
+/********* BODY CONTENT *********/
+
+#contentHemBox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#contentHemBox h1, h2, h3{
+    color: #0d47a1;
+}
+
+.contentBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+     width: 750px;
+    height: 220px;
+    margin-top: 25px !important;
+    margin: 0px auto;
+    background-color: whitesmoke;
+    padding: 20px 40px 20px 40px;
+    box-shadow: 1px 1px 5px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.contentBox img {
+    box-shadow: 1px 1px 5px;
+}
+
+#contentBox1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 170px;
+}
+
+#contentBox1 p {
+    margin-top: -5px;
+}
+
+#contentBox2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 480px;
+}
+
+.contentBox2Tjänster {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 720px;
+    height: 120px;
+    margin: 0px auto;
+     
+}
+
+.contentBox2Tjänster img {
+    margin-right: 10px;
+}
+
+.contentBox2Tjänster img:hover {
+    opacity: 0.5;
+}
+
+.contentBox2Tjänster p {
+   width: 550px;
+    font-size: 15px;
+   
+}
+
+.contentBox2Tjänster h3 {
+   font-size: 17px;
+    margin-top: -3px;
+}
+
+.contentBox3Färdigheter {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px
+    border: 1px solid black;
+}
+
+#contentBox3 {
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.contentBox3Färdigheter {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 145px;
+    width: 360px;
+    margin: 0px auto;
+}
+
+.contentBox3Färdigheter img {
+    box-shadow: 0px 0px 0px;
+}
+.contentBox3Färdigheter img:hover {
+    box-shadow: 0px 0px 0px;
+}
+
+.contentBox3Färdigheter {
+   font-size: 14px;
+}
+
+#contentBox4 {
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0px auto;
+}
+
+#contentBox4 p {
+    font-size: 13px;
+    margin-top: -10px;
+}
+
+#contentBox4 img {
+    margin-bottom: -10px;
+    margin-top: 20px;
+}
+
+.contentBox4Tidigare {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 360px;
+    height: 250px;
+    margin-top: -60px !important;
+    margin: 0px auto;
+}
+
+#contentBox4Header {
+    width: 100%;
+}
+
+#tillbakaHem {
+    margin: 0px auto;
+    margin-top: 60px;
+    transition-property: margin-top, margin-bottom;
+    transition-duration: 1s;
+}
+
+#tillbakaHem:hover{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#tillbakaHem img:hover{
+    box-shadow: 0px 0px 13px;
+    border-radius: 100%;
+}
+
+
+/********* END BODY CONTENT *********/
+
+/********* Site Map *********/
+#siteMap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+    height: 350px;
+    box-shadow: 3px 3px 5px;
+}
+
+.siteMapBox {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 22px;
+    margin: 0px auto;
+    width: 220px;
+    margin-top: 25px;
+}
+
+#siteMapBoxSocialMedia div {
+ opacity: 0.7;
+}
+
+#siteMapBoxSocialMedia div:hover {
+ opacity: 1;
+}
+
+#siteMapItemSocialMedia {
+    position: absolute;
+    margin-left: 13px;
+  
+}
+
+.siteMapImg img {
+    border-radius: 100%;
+}
+
+#siteMapHeader {
+    font-size: 30px;
+}
+
+.siteMapItem {
+    line-height: 50px;
+}
+
+.siteMapItem a {    /* Styling för länkarna */
+    color: white;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.siteMapItem a:hover {        /* Hover för länkarna */
+    opacity: 1;
+}
+
+.siteMapItem a:active {        /* Active för länkarna */
+    color: orange;
+}
+
+#siteMapLink {
+    line-height: 30px;
+}
+
+
+/******** END Site Map ********/
+
+/********* Status Bar *********/
+
+/*** Status Bar ID = BOTTOM ***/
+#statusBarBottom {
+    height: 70px;
+    box-shadow: 3px 3px 5px;
+}
+
+#copyRight {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: white;
+    font-size: 20px;
+    opacity: 0.7;
+}
+/*** END Status Bar ID = BOTTOM ***/
+
+/********* Status Bar *********/

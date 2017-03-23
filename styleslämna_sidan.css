@@ -1,0 +1,58 @@
+﻿.leaveSiteBox {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    margin: 0px auto;
+    margin-top: 10%;
+}
+
+.leaveSiteBox img {
+    min-width: 83px;
+    max-width: 83px;
+    min-height: 75px;
+    max-height: 75px;
+    margin: 0px auto;
+    margin-bottom: 10px;
+}
+
+#leaveSiteElement {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid #0d47a1;
+    padding: 15px;
+}
+
+#leaveSiteElement h1, h2, h3, p, a{
+    font-family: "Roboto";
+    opacity: 0.87;
+}
+
+#leaveSiteElement h1, h2, h3{
+    color: #0d47a1;
+}
+
+#val {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#grön h3 {
+    color: green;
+}
+
+#röd h3 {
+    color: red;
+}
+
+
+<div class="leaveSiteBox">
+        <img src="img/logga_valknut.png"/>
+        <div id="leaveSiteElement">
+            <h1>Du är påväg att lämna sidan</h1>
+            <p>Är du säker på att du vill lämna Mimer IT och gå vidare till <a href="https://www.microsoft.com/sv-se/">Microsoft</a></p>
+            <a href="https://www.microsoft.com/sv-se/"><h3>Gå vidare</h3></a>
+        </div>

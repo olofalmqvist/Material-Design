@@ -1,0 +1,74 @@
+#uppdragBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.uppdragContentTop {
+    display: flex;
+    width: 1200px;
+    margin: 0px auto;
+    margin-top: 50px;
+    background-color: whitesmoke;
+    padding: 20px 40px 20px 40px;
+    box-shadow: 1px 1px 5px;
+}
+
+.uppdragContentTop h1 {
+    font-size: 25px;
+    margin-right: 5px;
+}
+
+.uppdragContentTop p {
+    font-size: 13px;
+    margin-left: 10px;
+    margin-top: 27px;
+}
+
+#uppdragContentMiddle {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px !important;
+    margin: 0px auto;
+    width: 1200px;
+    background-color: whitesmoke;
+    padding: 20px 40px 20px 40px;
+    box-shadow: 1px 1px 5px;
+
+}
+
+.uppdragContent {
+    width: 180px;
+    height: 250px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    background-color: whitesmoke;
+    padding: 20px 40px 20px 40px;
+    box-shadow: 0px 0px 2px;
+	overflow: hidden;
+}
+
+.uppdragContent img {
+    box-shadow: 1px 1px 5px;
+}
+
+.uppdragContent:hover {
+    box-shadow: 0px 0px 6px;
+}
+
+.uppdragContent h2 {
+    font-size: 15px;
+}
+
+.uppdragContent p {
+    font-size: 13px;
+}
+
+.uppdragContent h2, h1 {
+    color: #0d47a1;
+}
+
+#logo h1 {
+    color: white;
+}

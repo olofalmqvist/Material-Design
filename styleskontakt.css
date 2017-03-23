@@ -1,0 +1,92 @@
+#kontakt {
+    display: flex;
+    justify-content: center;
+}
+
+#kontakt span {
+    opacity: 0.87;
+}
+
+#kontaktFormulärBox form{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 50px;
+    height: 500px;
+    width: 400px;
+    font-size: 18px;
+    margin-left: 40px;
+    margin-right: 250px; 
+    padding: 20px;
+    box-shadow: 1px 1px 3px;
+    border-radius: 3px;
+}
+
+#kontaktFormulärBox span{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.kontaktButton{
+    margin-top: 15px;
+    margin-left: 310px;
+    height: 60px;
+    width: 90px;
+    background-color: #1976D2;
+    box-shadow: 1px 1px #999;
+    color: white;
+    font-weight: bold;
+    font-family: "Roboto";
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.kontaktButton:active {
+    background-color: orange;
+    transform: translateY(4px);
+    box-shadow: 0px 0px #999;
+    opacity: 0.7;
+}
+
+.kontaktButton:hover {
+    background-color: orange;
+}
+
+.kontaktButton:focus {
+    outline: none;
+}
+
+.kontaktProfilBox {
+    border-radius: 3px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+     margin-top: 50px;
+    height: 500px;
+    width: 350px;
+    margin-left: 15px;
+    padding: 20px;
+    box-shadow: 1px 1px 3px;
+}
+
+.kontaktProfilBox img {
+    box-shadow: 1px 1px 5px;
+}
+
+.kontaktProfilBox img {
+    border-radius: 3px;
+    margin: 0px auto;
+}
+
+.kontaktProfilBox span {
+    margin: 0px auto;
+    color: black;
+    font-size: 18px;
+    margin-top: 15px;
+}
+     
+
